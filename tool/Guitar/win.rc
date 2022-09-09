@@ -1,0 +1,32 @@
+#include <windows.h>
+
+100 ICON DISCARDABLE "src/resources/Guitar.ico"
+
+VS_VERSION_INFO     VERSIONINFO
+ FILEVERSION       1,2,999,0
+ PRODUCTVERSION    1,2,999,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+	BLOCK "StringFileInfo"
+	BEGIN
+        BLOCK "041103a4"
+        BEGIN
+            VALUE "CompanyName", "S.Fuchita"
+            VALUE "FileDescription", "The Git GUI Client"
+            VALUE "FileVersion", "1, 2, 999, 0"
+            VALUE "InternalName",    "Guitar.exe"
+            VALUE "LegalCopyright", "Copyright (C) 2020 S.Fuchita (@soramimi_jp)"
+            VALUE "OriginalFilename","Guitar.exe"
+            VALUE "ProductName", "Guitar"
+            VALUE "ProductVersion", "1, 2, 999, 0"
+        END
+	END
+	BLOCK "VarFileInfo"
+	BEGIN
+        VALUE "Translation", 0x0411, 932
+    END
+END
