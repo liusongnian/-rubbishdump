@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=QPutty
+GenericName=SSH and telnet client
+Comment=Log on to remote systems using SSH, Telnet or Rlogin
+Exec=qPutty
+Icon=qputty
+Terminal=false
+Type=Application
+StartupNotify=false
+Categories=GNOME;Application;Network;
