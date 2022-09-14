@@ -1,0 +1,5485 @@
+{
+	"card info":	"mt6885-mt6359",
+	"Number of controls":	650,
+	"controls":	{
+		"control0":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Audio IRQ1 CNT",
+			"value":	1024
+		},
+		"control1":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Audio IRQ2 CNT",
+			"value":	0
+		},
+		"control2":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"deep_buffer_irq_cnt",
+			"value":	0
+		},
+		"control3":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"voip_rx_irq_cnt",
+			"value":	0
+		},
+		"control4":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"deep_buffer_scenario",
+			"value":	"Off"
+		},
+		"control5":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"record_xrun_assert",
+			"value":	"Off"
+		},
+		"control6":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"echo_ref_xrun_assert",
+			"value":	"Off"
+		},
+		"control7":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"fast_play_scenario",
+			"value":	"Off"
+		},
+		"control8":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"primary_play_scenario",
+			"value":	"On"
+		},
+		"control9":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"voip_rx_scenario",
+			"value":	"Off"
+		},
+		"control10":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"sram_size",
+			"value":	73728
+		},
+		"control11":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"vow_barge_in_irq_id",
+			"value":	15
+		},
+		"control12":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"adsp_primary_sharemem_scenario",
+			"value":	"Off"
+		},
+		"control13":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"adsp_deepbuffer_sharemem_scenario",
+			"value":	"Off"
+		},
+		"control14":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"adsp_voip_sharemem_scenario",
+			"value":	"Off"
+		},
+		"control15":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"adsp_playback_sharemem_scenario",
+			"value":	"Off"
+		},
+		"control16":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"adsp_call_final_sharemem_scenario",
+			"value":	"Off"
+		},
+		"control17":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"adsp_ktv_sharemem_scenario",
+			"value":	"Off"
+		},
+		"control18":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"adsp_offload_sharemem_scenario",
+			"value":	"Off"
+		},
+		"control19":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"adsp_capture_sharemem_scenario",
+			"value":	"Off"
+		},
+		"control20":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"adsp_ref_sharemem_scenario",
+			"value":	"Off"
+		},
+		"control21":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"adsp_fast_sharemem_scenario",
+			"value":	"Off"
+		},
+		"control22":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"mmap_play_scenario",
+			"value":	"Off"
+		},
+		"control23":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"mmap_record_scenario",
+			"value":	"Off"
+		},
+		"control24":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"aaudio_ion",
+			"value":	0
+		},
+		"control25":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"aaudio_dl_mmap_fd",
+			"value":	0
+		},
+		"control26":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"aaudio_ul_mmap_fd",
+			"value":	0
+		},
+		"control27":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"HW Gain 1",
+			"value":	524288
+		},
+		"control28":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"HW Gain 2",
+			"value":	524288
+		},
+		"control29":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S0_HD_Mux",
+			"value":	"Normal"
+		},
+		"control30":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S1_HD_Mux",
+			"value":	"Normal"
+		},
+		"control31":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S2_HD_Mux",
+			"value":	"Normal"
+		},
+		"control32":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S3_HD_Mux",
+			"value":	"Low_Jitter"
+		},
+		"control33":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S5_HD_Mux",
+			"value":	"Normal"
+		},
+		"control34":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S6_HD_Mux",
+			"value":	"Normal"
+		},
+		"control35":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S7_HD_Mux",
+			"value":	"Normal"
+		},
+		"control36":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S8_HD_Mux",
+			"value":	"Normal"
+		},
+		"control37":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S9_HD_Mux",
+			"value":	"Normal"
+		},
+		"control38":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Sidetone_Gain",
+			"value":	0
+		},
+		"control39":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Sidetone_Positive_Gain_dB",
+			"value":	0
+		},
+		"control40":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"ADDA_DL_GAIN",
+			"value":	0
+		},
+		"control41":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"MTKAIF_DMIC",
+			"value":	"Off"
+		},
+		"control42":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"MTKAIF_ADDA6_ONLY",
+			"value":	"Off"
+		},
+		"control43":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL1_CH1 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control44":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL1_CH1 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control45":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL1_CH1 ADDA_UL_CH3",
+			"value":	"Off"
+		},
+		"control46":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL1_CH2 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control47":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL1_CH2 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control48":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL1_CH2 ADDA_UL_CH3",
+			"value":	"Off"
+		},
+		"control49":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL1_CH2 ADDA_UL_CH4",
+			"value":	"Off"
+		},
+		"control50":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL1_CH3 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control51":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL1_CH3 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control52":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL1_CH3 ADDA_UL_CH3",
+			"value":	"Off"
+		},
+		"control53":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL1_CH4 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control54":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL1_CH4 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control55":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL1_CH4 ADDA_UL_CH3",
+			"value":	"Off"
+		},
+		"control56":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL1_CH4 ADDA_UL_CH4",
+			"value":	"Off"
+		},
+		"control57":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH1 I2S0_CH1",
+			"value":	"Off"
+		},
+		"control58":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH1 DL1_CH1",
+			"value":	"Off"
+		},
+		"control59":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH1 DL12_CH1",
+			"value":	"Off"
+		},
+		"control60":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH1 DL2_CH1",
+			"value":	"Off"
+		},
+		"control61":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH1 DL3_CH1",
+			"value":	"Off"
+		},
+		"control62":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH1 DL4_CH1",
+			"value":	"Off"
+		},
+		"control63":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH1 DL5_CH1",
+			"value":	"Off"
+		},
+		"control64":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH1 DL6_CH1",
+			"value":	"Off"
+		},
+		"control65":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH1 PCM_1_CAP_CH1",
+			"value":	"Off"
+		},
+		"control66":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH1 PCM_2_CAP_CH1",
+			"value":	"Off"
+		},
+		"control67":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH1 I2S2_CH1",
+			"value":	"Off"
+		},
+		"control68":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH1 CONNSYS_I2S_CH1",
+			"value":	"Off"
+		},
+		"control69":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH1 SRC_1_OUT_CH1",
+			"value":	"Off"
+		},
+		"control70":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH2 I2S0_CH2",
+			"value":	"Off"
+		},
+		"control71":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH2 DL1_CH2",
+			"value":	"Off"
+		},
+		"control72":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH2 DL12_CH2",
+			"value":	"Off"
+		},
+		"control73":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH2 DL2_CH2",
+			"value":	"Off"
+		},
+		"control74":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH2 DL3_CH2",
+			"value":	"Off"
+		},
+		"control75":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH2 DL4_CH2",
+			"value":	"Off"
+		},
+		"control76":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH2 DL5_CH2",
+			"value":	"Off"
+		},
+		"control77":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH2 DL6_CH2",
+			"value":	"Off"
+		},
+		"control78":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH2 PCM_1_CAP_CH1",
+			"value":	"Off"
+		},
+		"control79":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH2 PCM_2_CAP_CH1",
+			"value":	"Off"
+		},
+		"control80":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH2 I2S2_CH2",
+			"value":	"Off"
+		},
+		"control81":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH2 CONNSYS_I2S_CH2",
+			"value":	"Off"
+		},
+		"control82":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL2_CH2 SRC_1_OUT_CH2",
+			"value":	"Off"
+		},
+		"control83":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL3_CH1 CONNSYS_I2S_CH1",
+			"value":	"Off"
+		},
+		"control84":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL3_CH2 CONNSYS_I2S_CH2",
+			"value":	"Off"
+		},
+		"control85":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL4_CH1 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control86":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL4_CH1 I2S0_CH1",
+			"value":	"Off"
+		},
+		"control87":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL4_CH2 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control88":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL4_CH2 I2S0_CH2",
+			"value":	"Off"
+		},
+		"control89":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"UL4_TINYCONN_CH1_MUX",
+			"value":	"NONE"
+		},
+		"control90":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"UL4_TINYCONN_CH2_MUX",
+			"value":	"NONE"
+		},
+		"control91":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL5_CH1 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control92":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL5_CH2 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control93":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL6_CH1 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control94":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL6_CH1 DL1_CH1",
+			"value":	"Off"
+		},
+		"control95":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL6_CH1 DL12_CH1",
+			"value":	"Off"
+		},
+		"control96":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL6_CH1 DL6_CH1",
+			"value":	"Off"
+		},
+		"control97":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL6_CH1 DL2_CH1",
+			"value":	"Off"
+		},
+		"control98":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL6_CH1 DL3_CH1",
+			"value":	"Off"
+		},
+		"control99":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL6_CH1 DL4_CH1",
+			"value":	"Off"
+		},
+		"control100":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL6_CH1 PCM_1_CAP_CH1",
+			"value":	"Off"
+		},
+		"control101":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL6_CH1 PCM_2_CAP_CH1",
+			"value":	"Off"
+		},
+		"control102":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL6_CH2 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control103":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL6_CH2 DL1_CH2",
+			"value":	"Off"
+		},
+		"control104":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL6_CH2 DL12_CH2",
+			"value":	"Off"
+		},
+		"control105":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL6_CH2 DL6_CH2",
+			"value":	"Off"
+		},
+		"control106":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL6_CH2 DL2_CH2",
+			"value":	"Off"
+		},
+		"control107":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL6_CH2 DL3_CH2",
+			"value":	"Off"
+		},
+		"control108":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL6_CH2 DL4_CH2",
+			"value":	"Off"
+		},
+		"control109":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL6_CH2 PCM_1_CAP_CH1",
+			"value":	"Off"
+		},
+		"control110":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL6_CH2 PCM_2_CAP_CH1",
+			"value":	"Off"
+		},
+		"control111":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL7_CH1 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control112":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL7_CH1 HW_GAIN2_OUT_CH1",
+			"value":	"Off"
+		},
+		"control113":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL7_CH1 HW_SRC_2_OUT_CH1",
+			"value":	"Off"
+		},
+		"control114":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL7_CH2 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control115":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL7_CH2 HW_GAIN2_OUT_CH2",
+			"value":	"Off"
+		},
+		"control116":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL7_CH2 HW_SRC_2_OUT_CH2",
+			"value":	"Off"
+		},
+		"control117":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL8_CH1 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control118":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL8_CH2 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control119":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL_MONO_1_CH1 PCM_1_CAP_CH1",
+			"value":	"Off"
+		},
+		"control120":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL_MONO_1_CH1 PCM_2_CAP_CH1",
+			"value":	"Off"
+		},
+		"control121":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL_MONO_2_CH1 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control122":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"UL_MONO_3_CH1 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control123":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"DSP_DL DSP_DL1",
+			"value":	"Off"
+		},
+		"control124":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"DSP_DL DSP_DL2",
+			"value":	"Off"
+		},
+		"control125":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"DSP_DL DSP_DL12",
+			"value":	"Off"
+		},
+		"control126":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"DSP_DL DSP_DL6",
+			"value":	"Off"
+		},
+		"control127":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"DSP_DL DSP_DL3",
+			"value":	"Off"
+		},
+		"control128":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"DSP_DL DSP_DL4",
+			"value":	"Off"
+		},
+		"control129":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"HDMI_CH0_MUX",
+			"value":	"CH0"
+		},
+		"control130":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"HDMI_CH1_MUX",
+			"value":	"CH0"
+		},
+		"control131":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"HDMI_CH2_MUX",
+			"value":	"CH0"
+		},
+		"control132":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"HDMI_CH3_MUX",
+			"value":	"CH0"
+		},
+		"control133":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"HDMI_CH4_MUX",
+			"value":	"CH0"
+		},
+		"control134":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"HDMI_CH5_MUX",
+			"value":	"CH0"
+		},
+		"control135":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"HDMI_CH6_MUX",
+			"value":	"CH0"
+		},
+		"control136":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"HDMI_CH7_MUX",
+			"value":	"CH0"
+		},
+		"control137":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"HDMI_OUT_MUX",
+			"value":	"Disconnect"
+		},
+		"control138":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"DPTX_OUT_MUX",
+			"value":	"Disconnect"
+		},
+		"control139":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"DPTX_VIRTUAL_OUT_MUX",
+			"value":	"Disconnect"
+		},
+		"control140":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_1_PB_CH1 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control141":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_1_PB_CH1 DL2_CH1",
+			"value":	"Off"
+		},
+		"control142":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_1_PB_CH1 DL4_CH1",
+			"value":	"Off"
+		},
+		"control143":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_1_PB_CH2 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control144":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_1_PB_CH2 DL2_CH2",
+			"value":	"Off"
+		},
+		"control145":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_1_PB_CH2 DL4_CH2",
+			"value":	"Off"
+		},
+		"control146":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_1_PB_CH4 I2S0_CH1",
+			"value":	"Off"
+		},
+		"control147":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_1_PB_CH4 I2S0_CH2",
+			"value":	"Off"
+		},
+		"control148":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_1_PB_CH4 DL1_CH1",
+			"value":	"Off"
+		},
+		"control149":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_1_PB_CH4 I2S2_CH1",
+			"value":	"Off"
+		},
+		"control150":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_1_PB_CH4 I2S2_CH2",
+			"value":	"Off"
+		},
+		"control151":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_1_PB_CH4 DL4_CH1",
+			"value":	"Off"
+		},
+		"control152":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH1 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control153":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH1 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control154":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH1 ADDA_UL_CH3",
+			"value":	"Off"
+		},
+		"control155":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH1 DL2_CH1",
+			"value":	"Off"
+		},
+		"control156":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH1 DL4_CH1",
+			"value":	"Off"
+		},
+		"control157":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH2 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control158":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH2 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control159":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH2 ADDA_UL_CH3",
+			"value":	"Off"
+		},
+		"control160":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH2 DL2_CH2",
+			"value":	"Off"
+		},
+		"control161":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH2 DL4_CH2",
+			"value":	"Off"
+		},
+		"control162":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH3 ADDA_UL_CH3",
+			"value":	"Off"
+		},
+		"control163":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH4 I2S0_CH1",
+			"value":	"Off"
+		},
+		"control164":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH4 I2S0_CH2",
+			"value":	"Off"
+		},
+		"control165":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH4 DL1_CH1",
+			"value":	"Off"
+		},
+		"control166":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH4 I2S2_CH1",
+			"value":	"Off"
+		},
+		"control167":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH4 I2S2_CH2",
+			"value":	"Off"
+		},
+		"control168":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH4 DL4_CH1",
+			"value":	"Off"
+		},
+		"control169":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH5 I2S0_CH2",
+			"value":	"Off"
+		},
+		"control170":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH5 DL1_CH2",
+			"value":	"Off"
+		},
+		"control171":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH5 I2S2_CH2",
+			"value":	"Off"
+		},
+		"control172":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"PCM_2_PB_CH5 DL4_CH2",
+			"value":	"Off"
+		},
+		"control173":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_1_IN_CH1 DL1_CH1",
+			"value":	"Off"
+		},
+		"control174":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_1_IN_CH1 DL2_CH1",
+			"value":	"Off"
+		},
+		"control175":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_1_IN_CH1 DL3_CH1",
+			"value":	"Off"
+		},
+		"control176":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_1_IN_CH1 DL4_CH1",
+			"value":	"Off"
+		},
+		"control177":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_1_IN_CH1 DL6_CH1",
+			"value":	"Off"
+		},
+		"control178":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_1_IN_CH1 I2S0_CH1",
+			"value":	"Off"
+		},
+		"control179":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_1_IN_CH1 DL5_CH1",
+			"value":	"Off"
+		},
+		"control180":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_1_IN_CH2 DL1_CH2",
+			"value":	"Off"
+		},
+		"control181":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_1_IN_CH2 DL2_CH2",
+			"value":	"Off"
+		},
+		"control182":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_1_IN_CH2 DL3_CH2",
+			"value":	"Off"
+		},
+		"control183":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_1_IN_CH2 DL4_CH2",
+			"value":	"Off"
+		},
+		"control184":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_1_IN_CH2 DL6_CH2",
+			"value":	"Off"
+		},
+		"control185":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_1_IN_CH2 I2S0_CH2",
+			"value":	"Off"
+		},
+		"control186":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_1_IN_CH2 DL5_CH2",
+			"value":	"Off"
+		},
+		"control187":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_2_IN_CH1 DL1_CH1",
+			"value":	"Off"
+		},
+		"control188":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_2_IN_CH1 DL2_CH1",
+			"value":	"Off"
+		},
+		"control189":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_2_IN_CH1 DL3_CH1",
+			"value":	"Off"
+		},
+		"control190":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_2_IN_CH1 DL4_CH1",
+			"value":	"Off"
+		},
+		"control191":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_2_IN_CH1 DL5_CH1",
+			"value":	"Off"
+		},
+		"control192":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_2_IN_CH1 DL6_CH1",
+			"value":	"Off"
+		},
+		"control193":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_2_IN_CH1 HW_GAIN2_OUT_CH1",
+			"value":	"Off"
+		},
+		"control194":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_2_IN_CH2 DL1_CH2",
+			"value":	"Off"
+		},
+		"control195":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_2_IN_CH2 DL2_CH2",
+			"value":	"Off"
+		},
+		"control196":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_2_IN_CH2 DL3_CH2",
+			"value":	"Off"
+		},
+		"control197":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_2_IN_CH2 DL4_CH2",
+			"value":	"Off"
+		},
+		"control198":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_2_IN_CH2 DL5_CH2",
+			"value":	"Off"
+		},
+		"control199":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_2_IN_CH2 DL6_CH2",
+			"value":	"Off"
+		},
+		"control200":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_SRC_2_IN_CH2 HW_GAIN2_OUT_CH2",
+			"value":	"Off"
+		},
+		"control201":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_GAIN1_IN_CH1 CONNSYS_I2S_CH1",
+			"value":	"Off"
+		},
+		"control202":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_GAIN1_IN_CH2 CONNSYS_I2S_CH2",
+			"value":	"Off"
+		},
+		"control203":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_GAIN2_IN_CH1 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control204":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"HW_GAIN2_IN_CH2 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control205":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH1 DL1_CH1",
+			"value":	"Off"
+		},
+		"control206":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH1 DL2_CH1",
+			"value":	"Off"
+		},
+		"control207":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH1 DL3_CH1",
+			"value":	"Off"
+		},
+		"control208":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH1 DL12_CH1",
+			"value":	"Off"
+		},
+		"control209":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH1 DL6_CH1",
+			"value":	"Off"
+		},
+		"control210":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH1 DL4_CH1",
+			"value":	"Off"
+		},
+		"control211":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH1 DL5_CH1",
+			"value":	"Off"
+		},
+		"control212":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH1 DL8_CH1",
+			"value":	"Off"
+		},
+		"control213":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH1 GAIN1_OUT_CH1",
+			"value":	"Off"
+		},
+		"control214":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH1 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control215":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH1 PCM_1_CAP_CH1",
+			"value":	"Off"
+		},
+		"control216":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH1 PCM_2_CAP_CH1",
+			"value":	"Off"
+		},
+		"control217":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH2 DL1_CH2",
+			"value":	"Off"
+		},
+		"control218":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH2 DL2_CH2",
+			"value":	"Off"
+		},
+		"control219":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH2 DL3_CH2",
+			"value":	"Off"
+		},
+		"control220":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH2 DL12_CH2",
+			"value":	"Off"
+		},
+		"control221":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH2 DL6_CH2",
+			"value":	"Off"
+		},
+		"control222":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH2 DL4_CH2",
+			"value":	"Off"
+		},
+		"control223":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH2 DL5_CH2",
+			"value":	"Off"
+		},
+		"control224":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH2 DL8_CH2",
+			"value":	"Off"
+		},
+		"control225":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH2 GAIN1_OUT_CH2",
+			"value":	"Off"
+		},
+		"control226":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH2 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control227":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH2 PCM_1_CAP_CH1",
+			"value":	"Off"
+		},
+		"control228":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH2 PCM_2_CAP_CH1",
+			"value":	"Off"
+		},
+		"control229":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH2 PCM_1_CAP_CH2",
+			"value":	"Off"
+		},
+		"control230":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S1_CH2 PCM_2_CAP_CH2",
+			"value":	"Off"
+		},
+		"control231":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH1 DL1_CH1",
+			"value":	"On"
+		},
+		"control232":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH1 DL2_CH1",
+			"value":	"Off"
+		},
+		"control233":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH1 DL3_CH1",
+			"value":	"Off"
+		},
+		"control234":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH1 DL12_CH1",
+			"value":	"Off"
+		},
+		"control235":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH1 DL6_CH1",
+			"value":	"Off"
+		},
+		"control236":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH1 DL4_CH1",
+			"value":	"Off"
+		},
+		"control237":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH1 DL5_CH1",
+			"value":	"Off"
+		},
+		"control238":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH1 DL8_CH1",
+			"value":	"Off"
+		},
+		"control239":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH1 GAIN1_OUT_CH1",
+			"value":	"Off"
+		},
+		"control240":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH1 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control241":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH1 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control242":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH1 ADDA_UL_CH3",
+			"value":	"Off"
+		},
+		"control243":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH1 PCM_1_CAP_CH1",
+			"value":	"Off"
+		},
+		"control244":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH1 PCM_2_CAP_CH1",
+			"value":	"Off"
+		},
+		"control245":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH2 DL1_CH2",
+			"value":	"On"
+		},
+		"control246":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH2 DL2_CH2",
+			"value":	"Off"
+		},
+		"control247":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH2 DL3_CH2",
+			"value":	"Off"
+		},
+		"control248":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH2 DL12_CH2",
+			"value":	"Off"
+		},
+		"control249":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH2 DL6_CH2",
+			"value":	"Off"
+		},
+		"control250":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH2 DL4_CH2",
+			"value":	"Off"
+		},
+		"control251":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH2 DL5_CH2",
+			"value":	"Off"
+		},
+		"control252":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH2 DL8_CH2",
+			"value":	"Off"
+		},
+		"control253":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH2 GAIN1_OUT_CH2",
+			"value":	"Off"
+		},
+		"control254":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH2 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control255":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH2 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control256":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH2 ADDA_UL_CH3",
+			"value":	"Off"
+		},
+		"control257":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH2 PCM_1_CAP_CH1",
+			"value":	"Off"
+		},
+		"control258":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH2 PCM_2_CAP_CH1",
+			"value":	"Off"
+		},
+		"control259":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH2 PCM_1_CAP_CH2",
+			"value":	"Off"
+		},
+		"control260":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S3_CH2 PCM_2_CAP_CH2",
+			"value":	"Off"
+		},
+		"control261":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH1 DL1_CH1",
+			"value":	"Off"
+		},
+		"control262":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH1 DL2_CH1",
+			"value":	"Off"
+		},
+		"control263":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH1 DL3_CH1",
+			"value":	"Off"
+		},
+		"control264":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH1 DL12_CH1",
+			"value":	"Off"
+		},
+		"control265":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH1 DL6_CH1",
+			"value":	"Off"
+		},
+		"control266":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH1 DL4_CH1",
+			"value":	"Off"
+		},
+		"control267":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH1 DL5_CH1",
+			"value":	"Off"
+		},
+		"control268":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH1 DL8_CH1",
+			"value":	"Off"
+		},
+		"control269":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH1 GAIN1_OUT_CH1",
+			"value":	"Off"
+		},
+		"control270":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH1 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control271":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH1 PCM_1_CAP_CH1",
+			"value":	"Off"
+		},
+		"control272":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH1 PCM_2_CAP_CH1",
+			"value":	"Off"
+		},
+		"control273":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH2 DL1_CH2",
+			"value":	"Off"
+		},
+		"control274":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH2 DL2_CH2",
+			"value":	"Off"
+		},
+		"control275":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH2 DL3_CH2",
+			"value":	"Off"
+		},
+		"control276":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH2 DL12_CH2",
+			"value":	"Off"
+		},
+		"control277":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH2 DL6_CH2",
+			"value":	"Off"
+		},
+		"control278":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH2 DL4_CH2",
+			"value":	"Off"
+		},
+		"control279":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH2 DL5_CH2",
+			"value":	"Off"
+		},
+		"control280":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH2 DL8_CH2",
+			"value":	"Off"
+		},
+		"control281":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH2 GAIN1_OUT_CH2",
+			"value":	"Off"
+		},
+		"control282":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH2 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control283":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH2 PCM_1_CAP_CH1",
+			"value":	"Off"
+		},
+		"control284":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH2 PCM_2_CAP_CH1",
+			"value":	"Off"
+		},
+		"control285":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH2 PCM_1_CAP_CH2",
+			"value":	"Off"
+		},
+		"control286":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"I2S5_CH2 PCM_2_CAP_CH2",
+			"value":	"Off"
+		},
+		"control287":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S1_TINYCONN_CH1_MUX",
+			"value":	"NONE"
+		},
+		"control288":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S1_TINYCONN_CH2_MUX",
+			"value":	"NONE"
+		},
+		"control289":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S3_TINYCONN_CH1_MUX",
+			"value":	"NONE"
+		},
+		"control290":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S3_TINYCONN_CH2_MUX",
+			"value":	"NONE"
+		},
+		"control291":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S1_Out_Mux",
+			"value":	"Normal"
+		},
+		"control292":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S3_Out_Mux",
+			"value":	"Normal"
+		},
+		"control293":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S5_Out_Mux",
+			"value":	"Normal"
+		},
+		"control294":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S7_Out_Mux",
+			"value":	"Normal"
+		},
+		"control295":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S9_Out_Mux",
+			"value":	"Normal"
+		},
+		"control296":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S0_In_Mux",
+			"value":	"Normal"
+		},
+		"control297":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S0_Lpbk_Mux",
+			"value":	"Normal"
+		},
+		"control298":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"I2S2_Lpbk_Mux",
+			"value":	"Normal"
+		},
+		"control299":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH1 DL1_CH1",
+			"value":	"Off"
+		},
+		"control300":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH1 DL12_CH1",
+			"value":	"Off"
+		},
+		"control301":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH1 DL2_CH1",
+			"value":	"Off"
+		},
+		"control302":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH1 DL3_CH1",
+			"value":	"Off"
+		},
+		"control303":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH1 DL4_CH1",
+			"value":	"Off"
+		},
+		"control304":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH1 DL5_CH1",
+			"value":	"Off"
+		},
+		"control305":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH1 DL6_CH1",
+			"value":	"Off"
+		},
+		"control306":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH1 DL8_CH1",
+			"value":	"Off"
+		},
+		"control307":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH1 ADDA_UL_CH3",
+			"value":	"Off"
+		},
+		"control308":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH1 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control309":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH1 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control310":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH1 GAIN1_OUT_CH1",
+			"value":	"Off"
+		},
+		"control311":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH1 PCM_1_CAP_CH1",
+			"value":	"Off"
+		},
+		"control312":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH1 PCM_2_CAP_CH1",
+			"value":	"Off"
+		},
+		"control313":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH1 SRC_1_OUT_CH1",
+			"value":	"Off"
+		},
+		"control314":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH2 DL1_CH1",
+			"value":	"Off"
+		},
+		"control315":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH2 DL1_CH2",
+			"value":	"Off"
+		},
+		"control316":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH2 DL12_CH2",
+			"value":	"Off"
+		},
+		"control317":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH2 DL2_CH1",
+			"value":	"Off"
+		},
+		"control318":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH2 DL2_CH2",
+			"value":	"Off"
+		},
+		"control319":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH2 DL3_CH1",
+			"value":	"Off"
+		},
+		"control320":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH2 DL3_CH2",
+			"value":	"Off"
+		},
+		"control321":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH2 DL4_CH2",
+			"value":	"Off"
+		},
+		"control322":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH2 DL5_CH2",
+			"value":	"Off"
+		},
+		"control323":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH2 DL6_CH2",
+			"value":	"Off"
+		},
+		"control324":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH2 DL8_CH2",
+			"value":	"Off"
+		},
+		"control325":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH2 ADDA_UL_CH3",
+			"value":	"Off"
+		},
+		"control326":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH2 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control327":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH2 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control328":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH2 GAIN1_OUT_CH2",
+			"value":	"Off"
+		},
+		"control329":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH2 PCM_1_CAP_CH1",
+			"value":	"Off"
+		},
+		"control330":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH2 PCM_2_CAP_CH1",
+			"value":	"Off"
+		},
+		"control331":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH2 PCM_1_CAP_CH2",
+			"value":	"Off"
+		},
+		"control332":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH2 PCM_2_CAP_CH2",
+			"value":	"Off"
+		},
+		"control333":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH2 SRC_1_OUT_CH2",
+			"value":	"Off"
+		},
+		"control334":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH3 DL1_CH1",
+			"value":	"Off"
+		},
+		"control335":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH3 DL12_CH1",
+			"value":	"Off"
+		},
+		"control336":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH3 DL2_CH1",
+			"value":	"Off"
+		},
+		"control337":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH3 DL3_CH1",
+			"value":	"Off"
+		},
+		"control338":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH3 DL4_CH1",
+			"value":	"Off"
+		},
+		"control339":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH3 DL5_CH1",
+			"value":	"Off"
+		},
+		"control340":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH3 DL6_CH1",
+			"value":	"Off"
+		},
+		"control341":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH3 ADDA_UL_CH3",
+			"value":	"Off"
+		},
+		"control342":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH3 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control343":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH3 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control344":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH3 GAIN1_OUT_CH1",
+			"value":	"Off"
+		},
+		"control345":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH3 PCM_1_CAP_CH1",
+			"value":	"Off"
+		},
+		"control346":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH3 PCM_2_CAP_CH1",
+			"value":	"Off"
+		},
+		"control347":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH4 DL1_CH1",
+			"value":	"Off"
+		},
+		"control348":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH4 DL1_CH2",
+			"value":	"Off"
+		},
+		"control349":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH4 DL12_CH2",
+			"value":	"Off"
+		},
+		"control350":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH4 DL2_CH1",
+			"value":	"Off"
+		},
+		"control351":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH4 DL2_CH2",
+			"value":	"Off"
+		},
+		"control352":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH4 DL3_CH1",
+			"value":	"Off"
+		},
+		"control353":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH4 DL3_CH2",
+			"value":	"Off"
+		},
+		"control354":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH4 DL4_CH2",
+			"value":	"Off"
+		},
+		"control355":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH4 DL5_CH2",
+			"value":	"Off"
+		},
+		"control356":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH4 DL6_CH2",
+			"value":	"Off"
+		},
+		"control357":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH4 ADDA_UL_CH3",
+			"value":	"Off"
+		},
+		"control358":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH4 ADDA_UL_CH2",
+			"value":	"Off"
+		},
+		"control359":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH4 ADDA_UL_CH1",
+			"value":	"Off"
+		},
+		"control360":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH4 GAIN1_OUT_CH2",
+			"value":	"Off"
+		},
+		"control361":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH4 PCM_1_CAP_CH1",
+			"value":	"Off"
+		},
+		"control362":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH4 PCM_2_CAP_CH1",
+			"value":	"Off"
+		},
+		"control363":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH4 PCM_1_CAP_CH2",
+			"value":	"Off"
+		},
+		"control364":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ADDA_DL_CH4 PCM_2_CAP_CH2",
+			"value":	"Off"
+		},
+		"control365":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"ADDA_UL_Mux",
+			"value":	"MTKAIF"
+		},
+		"control366":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"ADDA_CH34_UL_Mux",
+			"value":	"MTKAIF"
+		},
+		"control367":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"Sidetone Filter Switch",
+			"value":	"Off"
+		},
+		"control368":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"STF_O19O20_MUX",
+			"value":	"ADDA_ADDA6"
+		},
+		"control369":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"STF_ADDA_MUX",
+			"value":	"ADDA"
+		},
+		"control370":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"Audio_SineGen_Switch",
+			"value":	"I0I1"
+		},
+		"control371":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"Audio_SineGen_SampleRate",
+			"value":	"8K"
+		},
+		"control372":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"Audio_SineGen_Amplitude",
+			"value":	"1/128"
+		},
+		"control373":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"Audio_SineGen_Mute_Ch1",
+			"value":	"Off"
+		},
+		"control374":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"Audio_SineGen_Mute_Ch2",
+			"value":	"Off"
+		},
+		"control375":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Audio_SineGen_Freq_Div_Ch1",
+			"value":	0
+		},
+		"control376":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Audio_SineGen_Freq_Div_Ch2",
+			"value":	0
+		},
+		"control377":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"Audio_Debug_Setting",
+			"value":	"Off"
+		},
+		"control378":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"usb_call_echo_ref",
+			"value":	0
+		},
+		"control379":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Speech_A2M_Msg_ID",
+			"value":	0
+		},
+		"control380":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Speech_MD_Status",
+			"value":	0
+		},
+		"control381":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Speech_SCP_CALL_STATE",
+			"value":	0
+		},
+		"control382":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"Speech_Mic_Mute",
+			"value":	"Off"
+		},
+		"control383":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"Speech_DL_Mute",
+			"value":	"Off"
+		},
+		"control384":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"Speech_UL_Mute",
+			"value":	"Off"
+		},
+		"control385":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Speech_Phone1_MD_Idx",
+			"value":	0
+		},
+		"control386":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Speech_Phone2_MD_Idx",
+			"value":	0
+		},
+		"control387":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"Speech_Phone_ID",
+			"value":	"Off"
+		},
+		"control388":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"Speech_MD_EPOF",
+			"value":	"Off"
+		},
+		"control389":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"Speech_BT_SCO_WB",
+			"value":	"Off"
+		},
+		"control390":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"Speech_SHM_Init",
+			"value":	"On"
+		},
+		"control391":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"Speech_SHM_USIP",
+			"value":	"On"
+		},
+		"control392":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Speech_SHM_Widx",
+			"value":	0
+		},
+		"control393":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Speech_MD_HeadVersion",
+			"value":	43605
+		},
+		"control394":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Speech_MD_Version",
+			"value":	12288
+		},
+		"control395":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"Speech_Cust_Param_Init",
+			"value":	"Off"
+		},
+		"control396":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"Vow_bargein_echo_ref",
+			"value":	"Off"
+		},
+		"control397":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"HeadsetL Volume",
+			"value":	31
+		},
+		"control398":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"HeadsetR Volume",
+			"value":	31
+		},
+		"control399":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Handset Volume",
+			"value":	4
+		},
+		"control400":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"LineoutL Volume",
+			"value":	31
+		},
+		"control401":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"LineoutR Volume",
+			"value":	31
+		},
+		"control402":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"Headset_PGAL_GAIN",
+			"value":	"0Db"
+		},
+		"control403":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"Headset_PGAR_GAIN",
+			"value":	"0Db"
+		},
+		"control404":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"Handset_PGA_GAIN",
+			"value":	"4Db"
+		},
+		"control405":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"Lineout_PGAL_GAIN",
+			"value":	"8Db"
+		},
+		"control406":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"Lineout_PGAR_GAIN",
+			"value":	"8Db"
+		},
+		"control407":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"PGAL Volume",
+			"value":	2
+		},
+		"control408":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"PGAR Volume",
+			"value":	2
+		},
+		"control409":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"PGA3 Volume",
+			"value":	2
+		},
+		"control410":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"Audio_PGA1_Setting",
+			"value":	"12Db"
+		},
+		"control411":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"Audio_PGA2_Setting",
+			"value":	"12Db"
+		},
+		"control412":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"Audio_PGA3_Setting",
+			"value":	"12Db"
+		},
+		"control413":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"Mic_Type_Mux_0",
+			"value":	"Idle"
+		},
+		"control414":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"Mic_Type_Mux_1",
+			"value":	"Idle"
+		},
+		"control415":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"Mic_Type_Mux_2",
+			"value":	"Idle"
+		},
+		"control416":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"Headphone Plugged In",
+			"value":	"Off"
+		},
+		"control417":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Audio HP ImpeDance Setting",
+			"value":	0
+		},
+		"control418":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"Audio_Codec_Debug_Setting",
+			"value":	"Off"
+		},
+		"control419":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"PMIC_REG_CLEAR",
+			"value":	"Off"
+		},
+		"control420":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Audio VOWCFG0 Data",
+			"value":	0
+		},
+		"control421":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Audio VOWCFG1 Data",
+			"value":	0
+		},
+		"control422":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Audio VOWCFG2 Data",
+			"value":	17219
+		},
+		"control423":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Audio VOWCFG3 Data",
+			"value":	42856
+		},
+		"control424":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Audio VOWCFG4 Data",
+			"value":	15
+		},
+		"control425":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Audio VOWCFG5 Data",
+			"value":	1
+		},
+		"control426":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Audio_VOW_Periodic",
+			"value":	0
+		},
+		"control427":	{
+			"type":	"BYTE",
+			"num_values":	128,
+			"name":	"Audio_VOW_Periodic_Param",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control428":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"DSP Set CAL_Z",
+			"value":	8392
+		},
+		"control429":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"DSP Set AMBIENT",
+			"value":	30
+		},
+		"control430":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"DSP Set CAL_STATUS",
+			"value":	1
+		},
+		"control431":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"DSP Set CAL_CHKSUM",
+			"value":	8393
+		},
+		"control432":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"DSP Firmware Loaded",
+			"value":	"On"
+		},
+		"control433":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"DSP1 Firmware",
+			"value":	"Protection"
+		},
+		"control434":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"Fast Use Case Delta File",
+			"value":	"cs35l41-delta-spk-music.txt"
+		},
+		"control435":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"Digital PCM Volume",
+			"value":	817
+		},
+		"control436":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"AMP PCM Gain",
+			"value":	18
+		},
+		"control437":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"ASPTX1 Slot Position",
+			"value":	0
+		},
+		"control438":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"ASPTX2 Slot Position",
+			"value":	1
+		},
+		"control439":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"ASPTX3 Slot Position",
+			"value":	2
+		},
+		"control440":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"ASPTX4 Slot Position",
+			"value":	3
+		},
+		"control441":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"ASPRX1 Slot Position",
+			"value":	0
+		},
+		"control442":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"ASPRX2 Slot Position",
+			"value":	1
+		},
+		"control443":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"PCM Soft Ramp",
+			"value":	"4ms"
+		},
+		"control444":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"DSP Booted",
+			"value":	"On"
+		},
+		"control445":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"Fast Use Case Switch Enable",
+			"value":	"On"
+		},
+		"control446":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"Firmware Reload Tuning",
+			"value":	"Off"
+		},
+		"control447":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"GLOBAL_EN from GPIO Control",
+			"value":	"Off"
+		},
+		"control448":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"DSP1 Preload Switch",
+			"value":	"On"
+		},
+		"control449":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"RCV DSP Set CAL_Z",
+			"value":	8392
+		},
+		"control450":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"RCV DSP Set AMBIENT",
+			"value":	30
+		},
+		"control451":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"RCV DSP Set CAL_STATUS",
+			"value":	1
+		},
+		"control452":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"RCV DSP Set CAL_CHKSUM",
+			"value":	8393
+		},
+		"control453":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"RCV DSP Firmware Loaded",
+			"value":	"On"
+		},
+		"control454":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"RCV DSP1 Firmware",
+			"value":	"Protection"
+		},
+		"control455":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"RCV Fast Use Case Delta File",
+			"value":	"cs35l41-delta-rcv-music.txt"
+		},
+		"control456":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"RCV Digital PCM Volume",
+			"value":	817
+		},
+		"control457":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"RCV AMP PCM Gain",
+			"value":	17
+		},
+		"control458":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"RCV ASPTX1 Slot Position",
+			"value":	0
+		},
+		"control459":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"RCV ASPTX2 Slot Position",
+			"value":	1
+		},
+		"control460":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"RCV ASPTX3 Slot Position",
+			"value":	2
+		},
+		"control461":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"RCV ASPTX4 Slot Position",
+			"value":	3
+		},
+		"control462":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"RCV ASPRX1 Slot Position",
+			"value":	0
+		},
+		"control463":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"RCV ASPRX2 Slot Position",
+			"value":	1
+		},
+		"control464":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"RCV PCM Soft Ramp",
+			"value":	"4ms"
+		},
+		"control465":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"RCV DSP Booted",
+			"value":	"On"
+		},
+		"control466":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"RCV Fast Use Case Switch Enable",
+			"value":	"On"
+		},
+		"control467":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"RCV Firmware Reload Tuning",
+			"value":	"Off"
+		},
+		"control468":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"RCV GLOBAL_EN from GPIO Control",
+			"value":	"Off"
+		},
+		"control469":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"RCV DSP1 Preload Switch",
+			"value":	"On"
+		},
+		"control470":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"BTCVSD Band",
+			"value":	"NB"
+		},
+		"control471":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"BTCVSD Loopback Switch",
+			"value":	"Off"
+		},
+		"control472":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"BTCVSD Bypass Switch",
+			"value":	"On"
+		},
+		"control473":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"BTCVSD Tx Mute Switch",
+			"value":	"Off"
+		},
+		"control474":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"BTCVSD Tx Irq Received Switch",
+			"value":	"Off"
+		},
+		"control475":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"BTCVSD Tx Timeout Switch",
+			"value":	"Off"
+		},
+		"control476":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"BTCVSD Rx Irq Received Switch",
+			"value":	"Off"
+		},
+		"control477":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"BTCVSD Rx Timeout Switch",
+			"value":	"Off"
+		},
+		"control478":	{
+			"type":	"BYTE",
+			"num_values":	16,
+			"name":	"BTCVSD Rx Timestamp",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control479":	{
+			"type":	"BYTE",
+			"num_values":	16,
+			"name":	"BTCVSD Tx Timestamp",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control480":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"offload digital volume",
+			"value":	65536
+		},
+		"control481":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"offload set format",
+			"value":	0
+		},
+		"control482":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"dsp_primary_default_en",
+			"value":	0
+		},
+		"control483":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"dsp_deepbuf_default_en",
+			"value":	0
+		},
+		"control484":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"dsp_voipdl_default_en",
+			"value":	31
+		},
+		"control485":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_playback_default_en",
+			"value":	"On"
+		},
+		"control486":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_captureul1_default_en",
+			"value":	"On"
+		},
+		"control487":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_offload_default_en",
+			"value":	"Off"
+		},
+		"control488":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_a2dp_default_en",
+			"value":	"Off"
+		},
+		"control489":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_dataprovider_default_en",
+			"value":	"Off"
+		},
+		"control490":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"dsp_call_final_default_en",
+			"value":	0
+		},
+		"control491":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"dsp_fast_default_en",
+			"value":	0
+		},
+		"control492":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_ktv_default_en",
+			"value":	"On"
+		},
+		"control493":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_captureraw_default_en",
+			"value":	"On"
+		},
+		"control494":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_primary_runtime_en",
+			"value":	"Off"
+		},
+		"control495":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_deepbuf_runtime_en",
+			"value":	"Off"
+		},
+		"control496":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_voipdl_runtime_en",
+			"value":	"Off"
+		},
+		"control497":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_playback_runtime_en",
+			"value":	"Off"
+		},
+		"control498":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_music_runtime_en",
+			"value":	"Off"
+		},
+		"control499":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_captureul1_runtime_en",
+			"value":	"Off"
+		},
+		"control500":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_offload_runtime_en",
+			"value":	"Off"
+		},
+		"control501":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_a2dp_runtime_en",
+			"value":	"Off"
+		},
+		"control502":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_dataprovider_runtime_en",
+			"value":	"Off"
+		},
+		"control503":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_fast_runtime_en",
+			"value":	"Off"
+		},
+		"control504":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_ktv_runtime_en",
+			"value":	"Off"
+		},
+		"control505":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_captureraw_runtime_en",
+			"value":	"Off"
+		},
+		"control506":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"audio_dsp_wakelock",
+			"value":	"Off"
+		},
+		"control507":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_call_final_runtime_en",
+			"value":	"Off"
+		},
+		"control508":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_captureul1_ref_runtime_en",
+			"value":	"Off"
+		},
+		"control509":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_playback_ref_runtime_en",
+			"value":	"Off"
+		},
+		"control510":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"dsp_call_final_ref_runtime_en",
+			"value":	"Off"
+		},
+		"control511":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"audio_dsp_version",
+			"value":	1
+		},
+		"control512":	{
+			"type":	"INT",
+			"num_values":	1,
+			"name":	"swdsp_smartpa_process_enable",
+			"value":	0
+		},
+		"control513":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"ktv_status",
+			"value":	"Off"
+		},
+		"control514":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"Ext_Speaker_Amp Switch",
+			"value":	"Off"
+		},
+		"control515":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"MTK_SPK_TYPE_GET",
+			"value":	"MTK_SPK_CS_CS35L41"
+		},
+		"control516":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"MTK_SPK_I2S_OUT_TYPE_GET",
+			"value":	"MTK_SPK_I2S_3"
+		},
+		"control517":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"MTK_SPK_I2S_IN_TYPE_GET",
+			"value":	"MTK_SPK_I2S_0"
+		},
+		"control518":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"DAC In Mux",
+			"value":	"Normal Path"
+		},
+		"control519":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"HPL Mux",
+			"value":	"Open"
+		},
+		"control520":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"HPR Mux",
+			"value":	"Open"
+		},
+		"control521":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"RCV Mux",
+			"value":	"Open"
+		},
+		"control522":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"LOL Mux",
+			"value":	"Open"
+		},
+		"control523":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"AIF Out Mux",
+			"value":	"Normal Path"
+		},
+		"control524":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"AIF2 Out Mux",
+			"value":	"Normal Path"
+		},
+		"control525":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"MISO0_MUX",
+			"value":	"UL1_CH1"
+		},
+		"control526":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"MISO1_MUX",
+			"value":	"UL1_CH2"
+		},
+		"control527":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"MISO2_MUX",
+			"value":	"UL2_CH1"
+		},
+		"control528":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"UL_SRC_MUX",
+			"value":	"AMIC"
+		},
+		"control529":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"UL2_SRC_MUX",
+			"value":	"AMIC"
+		},
+		"control530":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"VOW_UL_SRC_MUX",
+			"value":	"AMIC"
+		},
+		"control531":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"DMIC0_MUX",
+			"value":	"DMIC_DATA0"
+		},
+		"control532":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"DMIC1_MUX",
+			"value":	"DMIC_DATA1_L_1"
+		},
+		"control533":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"DMIC2_MUX",
+			"value":	"DMIC_DATA1_L_1"
+		},
+		"control534":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"VOW_AMIC0_MUX",
+			"value":	"ADC_L"
+		},
+		"control535":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"VOW_AMIC1_MUX",
+			"value":	"ADC_R"
+		},
+		"control536":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"ADC_L_Mux",
+			"value":	"Idle"
+		},
+		"control537":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"ADC_R_Mux",
+			"value":	"Idle"
+		},
+		"control538":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"ADC_3_Mux",
+			"value":	"Idle"
+		},
+		"control539":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"PGA_L_Mux",
+			"value":	"None"
+		},
+		"control540":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"PGA_R_Mux",
+			"value":	"None"
+		},
+		"control541":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"PGA_3_Mux",
+			"value":	"None"
+		},
+		"control542":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"ASPTX Ref",
+			"value":	"Ref"
+		},
+		"control543":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"ASP TX1 Source",
+			"value":	"Zero"
+		},
+		"control544":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"ASP TX2 Source",
+			"value":	"DSPTX1"
+		},
+		"control545":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"ASP TX3 Source",
+			"value":	"Zero"
+		},
+		"control546":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"ASP TX4 Source",
+			"value":	"Zero"
+		},
+		"control547":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"DSP RX1 Source",
+			"value":	"ASPRX2"
+		},
+		"control548":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"DSP RX2 Source",
+			"value":	"ASPRX2"
+		},
+		"control549":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"PCM Source",
+			"value":	"DSP"
+		},
+		"control550":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"DRE DRE Switch",
+			"value":	"Off"
+		},
+		"control551":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"RCV ASPTX Ref",
+			"value":	"Ref"
+		},
+		"control552":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"RCV ASP TX1 Source",
+			"value":	"DSPTX1"
+		},
+		"control553":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"RCV ASP TX2 Source",
+			"value":	"Zero"
+		},
+		"control554":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"RCV ASP TX3 Source",
+			"value":	"Zero"
+		},
+		"control555":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"RCV ASP TX4 Source",
+			"value":	"Zero"
+		},
+		"control556":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"RCV DSP RX1 Source",
+			"value":	"ASPRX1"
+		},
+		"control557":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"RCV DSP RX2 Source",
+			"value":	"ASPRX1"
+		},
+		"control558":	{
+			"type":	"ENUM",
+			"num_values":	1,
+			"name":	"RCV PCM Source",
+			"value":	"DSP"
+		},
+		"control559":	{
+			"type":	"BOOL",
+			"num_values":	1,
+			"name":	"RCV DRE DRE Switch",
+			"value":	"Off"
+		},
+		"control560":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection 400a4 HALO_STATE",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 02"
+		},
+		"control561":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection 400a4 HALO_HEARTBEAT",
+			"value":	" 00",
+			"value":	" e6",
+			"value":	" 15",
+			"value":	" 97"
+		},
+		"control562":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection 400a4 AUDIO_BLK_SIZE",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 20"
+		},
+		"control563":	{
+			"type":	"BYTE",
+			"num_values":	12,
+			"name":	"RCV DSP1 Protection 400a4 BUILD_JOB_NAME",
+			"value":	" 00",
+			"value":	" 4d",
+			"value":	" 61",
+			"value":	" 6e",
+			"value":	" 00",
+			"value":	" 75",
+			"value":	" 61",
+			"value":	" 6c",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control564":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection 400a4 BUILD_JOB_NUMBER",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control565":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd RTLOG_FRMPRWIN",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control566":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection 400a4 GLOBAL_SAMPLE_RAT",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" bb",
+			"value":	" 80"
+		},
+		"control567":	{
+			"type":	"BYTE",
+			"num_values":	60,
+			"name":	"RCV DSP1 Protection cd RTLOG_VARIABLE",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control568":	{
+			"type":	"BYTE",
+			"num_values":	120,
+			"name":	"RCV DSP1 Protection cd RTLOG_DATA",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control569":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection 400a4 ULTIRATE_NUMBER_B",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 01"
+		},
+		"control570":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd BDLOG_MAX_TEMP",
+			"value":	" 00",
+			"value":	" 0d",
+			"value":	" f2",
+			"value":	" 42"
+		},
+		"control571":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection 400a4 FIRMWARE_STATE",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control572":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd BDLOG_MAX_EXC",
+			"value":	" 00",
+			"value":	" 03",
+			"value":	" 99",
+			"value":	" 9a"
+		},
+		"control573":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection 400a4 EVENT_TIMEOUT",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 2e",
+			"value":	" e0"
+		},
+		"control574":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd BDLOG_OVER_TEMP_COUN",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control575":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd BDLOG_OVER_EXC_COUNT",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control576":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection 400a4 DC_OFFSET_HOLD_TI",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control577":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd BDLOG_ABNORMAL_MUTE",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control578":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd REDUCE_POWER",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control579":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection 400a4 ENABLE_FULL_US_BY",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control580":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd CH_BAL",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control581":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd CSPL_ENABLE",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 01"
+		},
+		"control582":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd ATTENUATION",
+			"value":	" 00",
+			"value":	" 7f",
+			"value":	" ff",
+			"value":	" ff"
+		},
+		"control583":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd CSPL_COMMAND",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control584":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd SPK_OUTPUT_POWER",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control585":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd CSPL_STATE",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control586":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd ALGO_FRAME_DELAY",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 05"
+		},
+		"control587":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd CSPL_ERRORNO",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control588":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd FLUSH_CYCLE_COUNT",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 0a"
+		},
+		"control589":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd CSPL_TEMPERATURE",
+			"value":	" 00",
+			"value":	" 0a",
+			"value":	" d8",
+			"value":	" 15"
+		},
+		"control590":	{
+			"type":	"BYTE",
+			"num_values":	400,
+			"name":	"RCV DSP1 Protection cd SPL_UPDATE_PARAMS_CO",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control591":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd CSPL_OVERSIGHT_GAIN",
+			"value":	" 00",
+			"value":	" 10",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control592":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd UPDT_PRMS",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control593":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd CAL_R",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 20",
+			"value":	" c8"
+		},
+		"control594":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd CAL_AMBIENT",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 17"
+		},
+		"control595":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd CAL_STATUS",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 01"
+		},
+		"control596":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd CAL_CHECKSUM",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 20",
+			"value":	" c9"
+		},
+		"control597":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd CAL_R_SELECTED",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 20",
+			"value":	" c8"
+		},
+		"control598":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd CAL_SET_STATUS",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 02"
+		},
+		"control599":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd DIAG_F0",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control600":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd DIAG_Z_LOW_DIFF",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control601":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd DIAG_F0_STATUS",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control602":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd RTLOG_ENABLE",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control603":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd RTLOG_STATE",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control604":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"RCV DSP1 Protection cd RTLOG_COUNT",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control605":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection 400a4 HALO_STATE",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 02"
+		},
+		"control606":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection 400a4 HALO_HEARTBEAT",
+			"value":	" 00",
+			"value":	" e6",
+			"value":	" 16",
+			"value":	" 9a"
+		},
+		"control607":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection 400a4 AUDIO_BLK_SIZE",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 20"
+		},
+		"control608":	{
+			"type":	"BYTE",
+			"num_values":	12,
+			"name":	"DSP1 Protection 400a4 BUILD_JOB_NAME",
+			"value":	" 00",
+			"value":	" 4d",
+			"value":	" 61",
+			"value":	" 6e",
+			"value":	" 00",
+			"value":	" 75",
+			"value":	" 61",
+			"value":	" 6c",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control609":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection 400a4 BUILD_JOB_NUMBER",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control610":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection 400a4 GLOBAL_SAMPLE_RATE_HW",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" bb",
+			"value":	" 80"
+		},
+		"control611":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection 400a4 ULTIRATE_NUMBER_BANDS",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 01"
+		},
+		"control612":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection 400a4 FIRMWARE_STATE",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control613":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection 400a4 EVENT_TIMEOUT",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 2e",
+			"value":	" e0"
+		},
+		"control614":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection 400a4 DC_OFFSET_HOLD_TIME",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control615":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection 400a4 ENABLE_FULL_US_BYPASS",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control616":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd CSPL_ENABLE",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 01"
+		},
+		"control617":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd CSPL_COMMAND",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control618":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd CSPL_STATE",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control619":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd CSPL_ERRORNO",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control620":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd CSPL_TEMPERATURE",
+			"value":	" 00",
+			"value":	" 0c",
+			"value":	" 62",
+			"value":	" d2"
+		},
+		"control621":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd CSPL_OVERSIGHT_GAIN",
+			"value":	" 00",
+			"value":	" 10",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control622":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd UPDT_PRMS",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control623":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd CAL_R",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 20",
+			"value":	" c8"
+		},
+		"control624":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd CAL_AMBIENT",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 17"
+		},
+		"control625":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd CAL_STATUS",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 01"
+		},
+		"control626":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd CAL_CHECKSUM",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 20",
+			"value":	" c9"
+		},
+		"control627":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd CAL_R_SELECTED",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 20",
+			"value":	" c8"
+		},
+		"control628":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd CAL_SET_STATUS",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 02"
+		},
+		"control629":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd DIAG_F0",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control630":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd DIAG_Z_LOW_DIFF",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control631":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd DIAG_F0_STATUS",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control632":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd RTLOG_ENABLE",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control633":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd RTLOG_STATE",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control634":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd RTLOG_COUNT",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control635":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd RTLOG_FRMPRWIN",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control636":	{
+			"type":	"BYTE",
+			"num_values":	60,
+			"name":	"DSP1 Protection cd RTLOG_VARIABLE",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control637":	{
+			"type":	"BYTE",
+			"num_values":	120,
+			"name":	"DSP1 Protection cd RTLOG_DATA",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control638":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd BDLOG_MAX_TEMP",
+			"value":	" 00",
+			"value":	" 15",
+			"value":	" b4",
+			"value":	" 51"
+		},
+		"control639":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd BDLOG_MAX_EXC",
+			"value":	" 00",
+			"value":	" 02",
+			"value":	" 15",
+			"value":	" 01"
+		},
+		"control640":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd BDLOG_OVER_TEMP_COUNT",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control641":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd BDLOG_OVER_EXC_COUNT",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control642":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd BDLOG_ABNORMAL_MUTE",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control643":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd REDUCE_POWER",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control644":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd CH_BAL",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control645":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd ATTENUATION",
+			"value":	" 00",
+			"value":	" 7f",
+			"value":	" ff",
+			"value":	" ff"
+		},
+		"control646":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd SPK_OUTPUT_POWER",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		},
+		"control647":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd ALGO_FRAME_DELAY",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 05"
+		},
+		"control648":	{
+			"type":	"BYTE",
+			"num_values":	4,
+			"name":	"DSP1 Protection cd FLUSH_CYCLE_COUNT",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 0a"
+		},
+		"control649":	{
+			"type":	"BYTE",
+			"num_values":	400,
+			"name":	"DSP1 Protection cd SPL_UPDATE_PARAMS_CONFIG",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00",
+			"value":	" 00"
+		}
+	}
+}

@@ -1,0 +1,17 @@
+cc_library_headers {
+    name: "libaudio_hal_headers",
+    vendor: true,
+    export_include_dirs: ["include", "V3/include", "utility"],
+}
+
+cc_library_headers {
+    name: "libaurisys_hal_headers",
+    vendor: true,
+    export_include_dirs: ["aurisys/framework", "aurisys/utility"],
+}
+
+cc_library_headers {
+    name: "libadsp_hal_headers",
+    vendor: true,
+    export_include_dirs: ["audiodsp"],
+}

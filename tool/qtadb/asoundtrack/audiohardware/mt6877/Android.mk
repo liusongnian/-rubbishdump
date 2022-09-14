@@ -1,0 +1,178 @@
+# Copyright Statement:
+#
+# This software/firmware and related documentation ("MediaTek Software") are
+# protected under relevant copyright laws. The information contained herein
+# is confidential and proprietary to MediaTek Inc. and/or its licensors.
+# Without the prior written permission of MediaTek inc. and/or its licensors,
+# any reproduction, modification, use or disclosure of MediaTek Software,
+# and information contained herein, in whole or in part, shall be strictly prohibited.
+#
+# MediaTek Inc. (C) 2010. All rights reserved.
+#
+# BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+# THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+# RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER ON
+# AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+# EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+# NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+# SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+# SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES TO LOOK ONLY TO SUCH
+# THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. RECEIVER EXPRESSLY ACKNOWLEDGES
+# THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES
+# CONTAINED IN MEDIATEK SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK
+# SOFTWARE RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
+# STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND
+# CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+# AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+# OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY RECEIVER TO
+# MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+#
+# The following software/firmware and/or related documentation ("MediaTek Software")
+# have been modified by MediaTek Inc. All revisions are subject to any receiver's
+# applicable license agreements with MediaTek Inc.
+
+ifeq ($(MTK_PLATFORM_DIR),mt6877)
+
+### ============================================================================
+### hardware
+### ============================================================================
+LOCAL_CFLAGS += -DMTK_AUDIO_KS
+
+# normal playback kernel buffer size
+LOCAL_CFLAGS += -DKERNEL_BUFFER_SIZE_DL1=16*1024
+
+# deep buffer playback kernel buffer size
+ifeq ($(TARGET_BOARD_PLATFORM),mt6833)
+LOCAL_CFLAGS += -DKERNEL_BUFFER_SIZE_DL1_DATA2=32*1024
+else
+LOCAL_CFLAGS += -DKERNEL_BUFFER_SIZE_DL1_DATA2=48*1024
+endif
+
+LOCAL_CFLAGS += -DKERNEL_DSPBUFFER_SIZE_DL1_DATA2=32*1024
+
+# normal capture kernel buffer size
+LOCAL_CFLAGS += -DKERNEL_BUFFER_SIZE_UL1_NORMAL=32*1024
+
+# deep buffer playback pcm
+LOCAL_CFLAGS += -DPCM_DEEP_BUFFER=\"Playback_3\"
+
+# For New DC Trim Calibration Flow
+LOCAL_CFLAGS += -DNEW_PMIC_DCTRIM_FLOW
+
+# Record lock time out information
+LOCAL_CFLAGS += -DMAX_RAW_DATA_LOCK_TIME_OUT_MS=3000
+LOCAL_CFLAGS += -DMAX_PROCESS_DATA_LOCK_TIME_OUT_MS=3000
+
+# low latency
+LOCAL_CFLAGS += -DUPLINK_LOW_LATENCY
+LOCAL_CFLAGS += -DDOWNLINK_LOW_LATENCY
+
+# aaudio
+LOCAL_CFLAGS += -DMTK_AUDIO_AAUDIO_SUPPORT
+LOCAL_SRC_FILES += \
+    $(AUDIO_COMMON_DIR)/V3/aud_drv/AudioALSACaptureDataProviderAAudio.cpp \
+    $(AUDIO_COMMON_DIR)/V3/aud_drv/AudioALSACaptureHandlerAAudio.cpp \
+    $(AUDIO_COMMON_DIR)/V3/aud_drv/AudioALSAPlaybackHandlerAAudio.cpp
+
+# POWR HAL Control for low latency & low power
+LOCAL_CFLAGS += -DMTK_POWERHAL_AUDIO_SUPPORT
+LOCAL_CFLAGS += -DMTK_POWERHAL_AUDIO_UL_LATENCY
+#LOCAL_CFLAGS += -DMTK_POWERHAL_AUDIO_DL_LATENCY
+#LOCAL_CFLAGS += -DMTK_POWERHAL_AUDIO_POWER
+LOCAL_CFLAGS += -DMTK_POWERHAL_WIFI_POWRER_SAVE
+LOCAL_SHARED_LIBRARIES += \
+    libhidlbase \
+    vendor.mediatek.hardware.mtkpower@1.0
+
+LOCAL_HEADER_LIBRARIES += libpowerhal_headers
+
+# HIFI audio
+ifeq ($(MTK_HIFIAUDIO_SUPPORT),yes)
+    LOCAL_CFLAGS += -DMTK_HIFIAUDIO_SUPPORT
+endif
+# hifi playback kernel buffer size
+LOCAL_CFLAGS += -DKERNEL_BUFFER_SIZE_IN_HIFI_MODE=64*1024
+
+# uncomment for increase hifi playback buffer size
+LOCAL_CFLAGS += -DHIFI_DEEP_BUFFER
+
+# Temp tag for FM support WIFI-Display output
+LOCAL_CFLAGS += -DMTK_FM_SUPPORT_WFD_OUTPUT
+
+# Playback must be 24bit when using sram
+LOCAL_CFLAGS += -DPLAYBACK_USE_24BITS_ONLY
+
+# Record must be 24bit when using sram
+LOCAL_CFLAGS += -DRECORD_INPUT_24BITS
+
+# BT
+LOCAL_CFLAGS += -DSW_BTCVSD_ENABLE
+
+LOCAL_CFLAGS += -DMTK_SUPPORT_BTCVSD_ALSA
+
+LOCAL_CFLAGS += -DSPH_BT_DELAYTIME_SUPPORT
+
+# enable TDM
+#   yes: AudioALSAPlaybackHandlerHDMI.cpp
+#   no:  AudioALSAPlaybackHandlerI2SHDMI.cpp
+MTK_TDM_SUPPORT = no
+
+# APLL
+LOCAL_CFLAGS += -DMTK_APLL_DEFAULT_OFF
+
+# HW Positive Gain
+LOCAL_CFLAGS += -DHW_POSITIVE_GAIN_SUPPORT
+
+# HW SRC support
+LOCAL_CFLAGS += -DHW_SRC_SUPPORT
+
+# USB
+MTK_AUDIO_IEMS_SUPPORT = yes
+USB_FIXED_IEMS_PERIOD_US = 5000
+
+### ============================================================================
+### speech config
+### ============================================================================
+
+# MD Platform
+MTK_MODEM_PLATFROM = GEN97
+
+# MD1 and MD2 use the same MD
+MTK_COMBO_MODEM_SUPPORT = yes
+
+# ccci share memory
+MTK_CCCI_SHARE_BUFFER_SUPPORT = yes
+
+# ap sidetone
+LOCAL_CFLAGS += -DSPH_AP_SET_SIDETONE
+LOCAL_CFLAGS += -DSPH_POSITIVE_SIDETONE_GAIN
+
+# magic clarity
+LOCAL_CFLAGS += -DMTK_SPH_MAGICLARITY_SHAPEFIR_SUPPORT
+
+# uncomment to enable voice ultra
+#LOCAL_CFLAGS += -DMTK_VOICE_ULTRA
+
+# uncomment to disable IN_CALL_VOICE_PLAYBACK_PATH
+#LOCAL_CFLAGS += -DMTK_SPEAKER_MONITOR_SPEECH_SUPPORT
+
+# network param
+#LOCAL_CFLAGS += -DMTK_AUDIO_SPH_NETWORK_PARAM
+
+# Use Gain index for codec driver gain control
+# uncomment this to use Gain DB for for codec driver gain control
+LOCAL_CFLAGS += -DGAIN_TABLE_USING_TLV_DB
+
+### ============================================================================
+### bring up only
+### ============================================================================
+
+#LOCAL_CFLAGS += -DFORCE_ROUTING_RECEIVER
+#LOCAL_CFLAGS += -DCCCI_FORCE_USE
+#LOCAL_CFLAGS += -DSPEECH_PMIC_RESET
+#LOCAL_CFLAGS += -DSPH_SKIP_A2M_BUFF_MSG
+
+
+
+endif # end of MTK_PLATFORM
